@@ -1,0 +1,6 @@
+{
+  "name": "FurEver – Pet Adoption & Matching Platform",
+  "description": "Playful, full-stack pet adoption and matching platform with browse filters, swipe matching, compatibility quiz, adoption tracking, lost & found reports, veterinary directory, and MySQL + Express backend.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

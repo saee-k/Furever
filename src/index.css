@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/*
+ * FurEver Design System Tokens
+ * Light purple & white background combo with crisp black overall text.
+ * Completely static background throughout the website.
+ */
+:root {
+  --bg-main: #F4EEFF;
+  --bg-secondary: #EAE0FF;
+  --bg-card: #FFFFFF;
+  --accent-purple: #D5C2FA;
+  --accent-purple-hover: #C4AEF7;
+  --accent-purple-soft: #EFE8FF;
+  --text-main: #000000;
+  --border-light: #DCD1F5;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.015em;
+  color: var(--text-main);
+}
+
+input, select, textarea, button {
+  color: var(--text-main);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C9B9EE;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A993E0;
+}
